@@ -1,0 +1,9 @@
+.feedback{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.feedback__button{
+    max-height: fit-content;
+}

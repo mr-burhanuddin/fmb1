@@ -1,0 +1,44 @@
+.banner {
+  background: url("http://faizulmawaidilburhaniyah.com/fmb/images/circle.png") center center ;
+  background-image: url("http://faizulmawaidilburhaniyah.com/fmb/images/slider/reflaction-22-2-2016.jpg");
+  background-repeat: no-repeat;
+  min-height: 57vh;
+  position: relative;
+  border-radius: 10px;
+  z-index: 2;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.banner__count{
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  z-index: 1;
+  font-weight: 700;
+
+}
+.banner__header{
+  margin: 0;
+  border-radius: 15px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+.banner__num{
+  margin: 0;
+  border-radius: 15px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+@media(max-width: 939px) {
+  .banner {
+    background-size: contain;
+    margin-bottom: auto;
+  }
+}
+
+@media(min-width: 1025px) {
+  .banner {
+    width: 100%;
+    background-size: cover;
+    object-fit: fill;
+    
+  }
+}
